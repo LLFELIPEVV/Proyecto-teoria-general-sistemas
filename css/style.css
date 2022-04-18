@@ -2560,5 +2560,27 @@ a:hover {
 }
 .service-item {
   min-height: 89%;
-  background-image: url(images/institucionales/Introduccion.jpg);
+  background-color: #fafafa;
+}
+
+.service-2 {
+  background-color: #ffffff;
+}
+
+.inline-block {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.about-2 {
+  background-color: #f1f1f1;
+}
+
+.service-3 {
+  background-color: #f1f1f1;
+}
+
+.img-cp {
+  padding-top: 30%;
+  padding-bottom: 30%;
 }
