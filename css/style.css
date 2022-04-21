@@ -2588,3 +2588,14 @@ a:hover {
 .client-thumb {
   padding-bottom: 5%;
 }
+
+.sub-barra-titulos {
+  height: 10px;
+  background-color: #8906e0;
+  min-width: 800px;
+}
+
+.sub-barra-titulos:hover {
+  background-color: #76F91F;
+}
+
