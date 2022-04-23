@@ -2599,3 +2599,7 @@ a:hover {
   background-color: #76F91F;
 }
 
+.img-fluid {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
