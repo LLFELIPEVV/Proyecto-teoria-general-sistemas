@@ -2554,10 +2554,11 @@ a:hover {
   padding: 0%;
 }
 
-.link-contenidos div h4{
+.link-contenidos div h4 {
   text-decoration: none;
   color: #000;
 }
+
 .service-item {
   min-height: 89%;
   background-color: #fafafa;
@@ -2602,4 +2603,27 @@ a:hover {
 .img-fluid {
   padding-top: 15%;
   padding-bottom: 15%;
+}
+
+.foto-autor {
+  padding: 0px;
+  border: 0px;
+}
+
+.foto-autor {
+  padding-top: 0px;
+  padding: 0px;
+}
+
+.espacio-autor {
+  background-color: #000;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.call-to-action-3 {
+  padding: 100px 0;
+  background-image: url("../images/call-to-action/code-1076536_1920.jpg");
+  background-size: cover;
+  color: #fff;
 }
