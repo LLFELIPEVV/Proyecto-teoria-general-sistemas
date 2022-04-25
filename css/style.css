@@ -2627,3 +2627,21 @@ a:hover {
   background-size: cover;
   color: #fff;
 }
+
+b {
+  color: #000;
+}
+
+.call-to-action-4 {
+  padding: 100px 0;
+  background-image: url("../images/call-to-action/digitization-5140071_1920.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.call-to-action-5 {
+  padding: 100px 0;
+  background-image: url("../images/call-to-action/coding-1841550_1920.jpg");
+  background-size: cover;
+  color: #fff;
+}
