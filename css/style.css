@@ -2610,15 +2610,9 @@ a:hover {
   border: 0px;
 }
 
-.foto-autor {
-  padding-top: 0px;
-  padding: 0px;
-}
-
 .espacio-autor {
   background-color: #000;
-  padding-top: 10px;
-  width: 100%;
+  /* padding-top: 0px; */
 }
 
 .call-to-action-3 {
@@ -2644,4 +2638,9 @@ b {
   background-image: url("../images/call-to-action/coding-1841550_1920.jpg");
   background-size: cover;
   color: #fff;
+}
+
+.client-meta{
+  position: relative;
+  top: 16px;
 }
