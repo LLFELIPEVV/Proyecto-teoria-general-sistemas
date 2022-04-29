@@ -2644,3 +2644,38 @@ b {
   position: relative;
   top: 16px;
 }
+
+.call-to-action-6 {
+  padding: 100px 0;
+  background-image: url("../images/call-to-action/board-453758_1920.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.call-to-action-7 {
+  padding: 100px 0;
+  background-image: url("../images/call-to-action/gears-1236578_1920.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.call-to-action-8 {
+  padding: 100px 0;
+  background-image: url("../images/call-to-action/fiber-4814456_1920.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.call-to-action-9 {
+  padding: 100px 0;
+  background-image: url("../images/call-to-action/wormhole-5319067_1920.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.call-to-action-10 {
+  padding: 100px 0;
+  background-image: url("../images/call-to-action/mobile-1087845_1920.jpg");
+  background-size: cover;
+  color: #fff;
+}
