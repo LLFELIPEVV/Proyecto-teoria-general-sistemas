@@ -1,22 +1,22 @@
 <?php
-    //we need to get our variables first
+    //necesitamos obtener nuestras variables primero
     
-    $email_to =   'support@email.com'; //the address to which the email will be sent
+    $email_to =   'ramonfelipeperezosorio@gmail.com'; //la dirección a la que se enviará el correo electrónico
     $name     =   $_POST['name'];  
     $email    =   $_POST['email'];
     $subject  =   $_POST['subject'];
     $message  =   $_POST['message'];
-    
-    /*the $header variable is for the additional headers in the mail function,
-     we are asigning 2 values, first one is FROM and the second one is REPLY-TO.
-     That way when we want to reply the email gmail(or yahoo or hotmail...) will know 
-     who are we replying to. */
+
+    /*la variable $header es para los encabezados adicionales en la función de correo,
+      estamos asignando 2 valores, el primero es DESDE y el segundo es RESPONDER A.
+      De esa manera cuando queramos responder el correo electrónico gmail (o yahoo o hotmail...) sabrá
+      a quien respondemos. */
     $headers  = "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";
     
     if(mail($email_to, $subject, $message, $headers)){
-        echo 'sent'; // we are sending this text to the ajax request telling it that the mail is sent..      
+        echo 'sent'; // estamos enviando este texto a la solicitud de ajax diciéndole que se envió el correo..    
     }else{
-        echo 'failed';// ... or this one to tell it that it wasn't sent    
+        echo 'failed';// ... o este para decirle que no fue enviado    
     }
 ?>
